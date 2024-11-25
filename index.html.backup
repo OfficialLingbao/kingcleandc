@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional commercial and residential cleaning services in Washington DC. Expert cleaners, flexible scheduling, and satisfaction guaranteed.">
+    <meta name="keywords" content="cleaning services DC, commercial cleaning, residential cleaning, Washington DC cleaners, professional cleaning service, office cleaning DC">
+    <meta name="author" content="King of Clean DC">
+    <meta property="og:title" content="King of Clean DC - Professional Cleaning Services">
+    <meta property="og:description" content="Expert commercial and residential cleaning services in Washington DC. Book your cleaning service today!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kingofcleandc.com">
+    <meta property="og:image" content="https://kingofcleandc.com/images/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="King of Clean DC - Professional Cleaning Services">
+    <meta name="twitter:description" content="Expert commercial and residential cleaning services in Washington DC. Book your cleaning service today!">
+    <link rel="canonical" href="https://kingofcleandc.com">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Expert Commercial Cleaning | King of Clean DC</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.min.css">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="logo">King of Clean DC</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="https://bookmycleaning.bookingkoala.com/booknow" class="btn btn-primary">Book Now</a></li>
+                <li><a href="tel:+18557442154" class="btn btn-secondary">Call Us: (855) 744-2154</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Expert Commercial Cleaning Solutions in Washington DC</h1>
+                <div class="video-container">
+                    <iframe 
+                        width="640" 
+                        height="360" 
+                        src="https://www.youtube.com/embed/BVGftL17mGM" 
+                        title="King of Clean DC Video"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="marquee-container">
+                    <marquee behavior="scroll" direction="left" scrollamount="5">
+                        <span class="discount-text">🌟 Book Now and Get 10% Off Your First Service! 🌟</span>
+                    </marquee>
+                </div>
+                <div class="qa-section">
+                    <h2>Questions and Answers</h2>
+                    <div class="qa-container">
+                        <div class="qa-item">
+                            <h3>What areas do you serve?</h3>
+                            <p>King of Clean DC serves the entire Washington D.C. metro area, including parts of Maryland and Northern Virginia.</p>
+                        </div>
+                        <div class="qa-item">
+                            <h3>Do I need to provide cleaning supplies?</h3>
+                            <p>They provide all necessary cleaning supplies and equipment, ensuring you don't have to worry about a thing.</p>
+                        </div>
+                        <div class="qa-item">
+                            <h3>What's your cancellation policy?</h3>
+                            <p>Their cancellation policy requires at least 24 hours' notice for cancellations. Cancellations made less than 24 hours before the scheduled service may be subject to a cancellation fee.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form id="contactForm" class="contact-form" onsubmit="submitForm(event)">
+                    <h2>Let's Get in Touch!</h2>
+                    <p class="form-subtitle">Fill out the form below, and we'll get back to you as soon as possible.</p>
+                    
+                    <div class="form-group">
+                        <input type="text" name="full_name" placeholder="Your Full Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email Address" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Your Phone Number">
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea name="address" placeholder="Your Address (Street, City, ZIP Code)"></textarea>
+                    </div>
+                    
+                    <div class="form-group radio-group">
+                        <label>Preferred Contact Method:</label>
+                        <div class="radio-options">
+                            <label><input type="radio" name="contact_method" value="Email" checked> Email</label>
+                            <label><input type="radio" name="contact_method" value="Phone"> Phone</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select name="service" required>
+                            <option value="" disabled selected>Select a Service</option>
+                            <option value="House Cleaning">House Cleaning</option>
+                            <option value="Office Cleaning">Office Cleaning</option>
+                            <option value="Deep Cleaning">Deep Cleaning</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="date" name="service_date">
+                    </div>
+                    
+                    <div class="form-group">
+                        <select name="referral">
+                            <option value="" disabled selected>How Did You Hear About Us?</option>
+                            <option value="Google">Google</option>
+                            <option value="Social Media">Social Media</option>
+                            <option value="Friend/Family">Friend/Family</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea name="comments" placeholder="Let us know if you have any specific requests or questions!"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Submit Request</button>
+                    
+                    <p class="privacy-notice">We value your privacy. Your information will only be used to respond to your inquiry.</p>
+                </form>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🏠</div>
+                        <h3>Residential Cleaning</h3>
+                        <p>Keep your home spotless with our professional cleaning services</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏢</div>
+                        <h3>Commercial Cleaning</h3>
+                        <p>Maintain a clean and professional workspace for your business</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3>Deep Cleaning</h3>
+                        <p>Thorough cleaning for a fresh and healthy environment</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-us">
+            <div class="container">
+                <h2>Why Choose King of Clean DC?</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <span class="check-icon">✓</span>
+                        <h4>Licensed & Insured</h4>
+                        <p>Your property is protected with our comprehensive insurance coverage</p>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="check-icon">✓</span>
+                        <h4>Experienced Team</h4>
+                        <p>Our professional cleaners are trained and background-checked</p>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="check-icon">✓</span>
+                        <h4>Satisfaction Guaranteed</h4>
+                        <p>We're not happy until you're completely satisfied with our service</p>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="check-icon">✓</span>
+                        <h4>Flexible Scheduling</h4>
+                        <p>Book your cleaning service at a time that works for you</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready for a Cleaner Space?</h2>
+                <p>Book your cleaning service today and experience the King of Clean difference!</p>
+                <div class="cta-buttons">
+                    <a href="https://bookmycleaning.bookingkoala.com/booknow" class="btn btn-primary btn-large">Book Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Phone: (855) 744-2154</p>
+                    <p>Service Area: Washington DC Metropolitan Area</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/kingofcleandc" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/kingofcleandc" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com/kingofcleanusa" target="_blank" rel="noopener noreferrer" aria-label="Follow us on X (Twitter)">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kingofcleandc/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Stay updated with our latest cleaning tips and exclusive offers!</p>
+                    <!-- Begin Mailchimp Signup Form -->
+                    <div id="mc_embed_signup">
+                        <form action="https://kingofcleandc.us14.list-manage.com/subscribe/post?u=0f4142a60196917b6c3757910&amp;id=3b83b2a4a1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                            <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group">
+                                    <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required placeholder="Enter your email">
+                                </div>
+                                <div class="mc-field-group">
+                                    <input type="text" name="FNAME" class="text" id="mce-FNAME" placeholder="First Name">
+                                </div>
+                                <div class="mc-field-group">
+                                    <select name="MMERGE6" class="required" id="mce-MMERGE6" required>
+                                        <option value="" disabled selected>Interested In...</option>
+                                        <option value="Residential">Residential Cleaning</option>
+                                        <option value="Commercial">Commercial Cleaning</option>
+                                        <option value="Both">Both Services</option>
+                                    </select>
+                                </div>
+                                <!-- GDPR Compliance -->
+                                <div class="mc-field-group gdpr-field">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" id="gdpr_consent" name="gdpr[37]" value="Y" class="av-checkbox gdpr" required>
+                                        <span>I agree to receive marketing emails and understand I can unsubscribe at any time. View our <a href="privacy-policy.html">Privacy Policy</a>.</span>
+                                    </label>
+                                </div>
+                                <div class="mc-field-group input-group">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" value="4" name="group[37893]" id="mce-group[37893]-37893-0">
+                                        <span>Blog Updates</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" value="2" name="group[37893]" id="mce-group[37893]-37893-1">
+                                        <span>Cleaning Tips</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" value="1" name="group[37893]" id="mce-group[37893]-37893-2">
+                                        <span>Special Offers</span>
+                                    </label>
+                                </div>
+                                <div id="mce-responses">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                                <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                    <input type="text" name="b_0f4142a60196917b6c3757910_3b83b2a4a1" tabindex="-1" value="">
+                                </div>
+                                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Mailchimp Signup Form -->
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="book.html">Book Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 King of Clean DC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Newsletter -->
+    <div class="floating-newsletter" id="floatingNewsletter">
+        <div class="newsletter-header">
+            <h3>Get Cleaning Tips!</h3>
+            <button class="close-button" onclick="closeNewsletter()">×</button>
+        </div>
+        <p>Subscribe to our newsletter for expert cleaning advice and exclusive offers!</p>
+        <div id="mc_embed_signup">
+            <form action="https://kingofcleandc.us14.list-manage.com/subscribe/post?u=0f4142a60196917b6c3757910&amp;id=3b83b2a4a1" method="post" id="mc-embedded-subscribe-form-popup" name="mc-embedded-subscribe-form" class="newsletter-form validate" target="_blank">
+                <div class="form-group">
+                    <input type="email" name="EMAIL" class="required email" id="mce-EMAIL-popup" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">
+                        <span class="default-text">Subscribe</span>
+                        <span class="loading-text"><i class="fas fa-spinner fa-spin"></i></span>
+                    </button>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_0f4142a60196917b6c3757910_3b83b2a4a1" tabindex="-1" value="">
+                </div>
+                <div class="form-message"></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.min.js"></script>
+</body>
+</html>
