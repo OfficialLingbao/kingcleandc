@@ -216,8 +216,11 @@ Comments: ${formObject.comments}
 
     function closeNewsletter() {
         const floatingNewsletter = document.getElementById('floatingNewsletter');
-        floatingNewsletter.classList.remove('show');
-        localStorage.setItem('hasSeenNewsletter', 'true');
+        if (floatingNewsletter) {
+            floatingNewsletter.style.display = 'none';
+            floatingNewsletter.classList.remove('show');
+            localStorage.setItem('hasSeenNewsletter', 'true');
+        }
     }
 
     function handleNewsletterSubmit(event) {
